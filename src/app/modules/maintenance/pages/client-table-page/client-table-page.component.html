@@ -1,0 +1,55 @@
+<div class="container text-center">
+  <div class="row">
+    <div class="display-6 my-2">Cadastro de clientes</div>
+
+    <div class="col border rounded shadow-sm p-4">
+      <div class="text-end">
+        <a href="/prototype/pages/client.html" class="btn btn-primary">Novo</a>
+      </div>
+
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Nome</th>
+            <th scope="col">Telefone</th>
+            <th scope="col">Data de Nascimento</th>
+            <th scope="col">Remover</th>
+          </tr>
+          <tr>
+            <th scope="col"></th>
+            <th scope="col">
+              <input type="text" class="form-control" id="inputClientName"
+                placeholder="Filtrar pelo nome" [(ngModel)]="filter" (keyup)="filterName()"></th>
+            <th scope="col"></th>
+            <th scope="col"></th>
+            <th scope="col"></th>
+          </tr>
+        </thead>
+        <tbody>
+          
+          <tr *ngFor="let client of clientPage.content">
+            <th scope="row">{{client.id}}</th>
+            <td>
+              <a href="#">{{client.name}}</a>
+            </td>
+            <td>{{client.phone}}</td>
+            <td>{{client.dateOfBirth | date: 'dd/MM/y'}}</td>
+            <td>
+              <div class="btn btn-sm" (click)="deleteClient(client)">
+                <img src="assets/svg/trash3.svg" width="20" height="20" alt="delete">
+              </div>
+            </td>
+          </tr>
+          
+        </tbody>
+      </table>
+
+      <ngb-pagination class="d-flex justify-content-center"
+        [collectionSize]="clientPage.numberOfElements" [(page)]="page" [boundaryLinks]="true" (pageChange)="pageChange()" />
+
+    </div>
+  </div>
+
+
+</div>

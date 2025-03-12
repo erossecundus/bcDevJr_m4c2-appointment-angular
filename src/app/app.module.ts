@@ -8,6 +8,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { HomeModule } from './modules/home/home.module';
 import { MaintenanceModule } from './modules/maintenance/maintenance.module';
 import { ScheduleModule } from './modules/schedule/schedule.module';
+import { provideHttpClient } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,9 @@ import { ScheduleModule } from './modules/schedule/schedule.module';
     MaintenanceModule,
     ScheduleModule
   ],
-  providers: [],
+  providers: [
+    provideHttpClient()
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
