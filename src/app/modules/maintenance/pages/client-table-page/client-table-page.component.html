@@ -4,7 +4,7 @@
 
     <div class="col border rounded shadow-sm p-4">
       <div class="text-end">
-        <a href="/prototype/pages/client.html" class="btn btn-primary">Novo</a>
+        <a class="btn btn-primary" aria-current="page" routerLink="/client-form">Novo</a>
       </div>
 
       <table class="table table-striped">
@@ -31,7 +31,7 @@
           <tr *ngFor="let client of clientPage.content">
             <th scope="row">{{client.id}}</th>
             <td>
-              <a href="#">{{client.name}}</a>
+              <a routerLink="/client-form/{{client.id}}">{{client.name}}</a>
             </td>
             <td>{{client.phone}}</td>
             <td>{{client.dateOfBirth | date: 'dd/MM/y'}}</td>

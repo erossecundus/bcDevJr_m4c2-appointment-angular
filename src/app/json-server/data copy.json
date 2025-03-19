@@ -3,700 +3,600 @@
     {
       "id": 1,
       "name": "Orr Jacobson",
-      "gender": "male",
       "dateOfBirth": "2020-11-20",
       "phone": "(92) 0496-2796"
     },
     {
       "id": 2,
       "name": "Bullock Baxter",
-      "gender": "male",
       "dateOfBirth": "2023-12-25",
       "phone": "(86) 4510-2346"
     },
     {
       "id": 3,
       "name": "Pace Griffin",
-      "gender": "male",
       "dateOfBirth": "2016-08-08",
       "phone": "(85) 0496-2220"
     },
     {
       "id": 4,
       "name": "Mullins English",
-      "gender": "male",
       "dateOfBirth": "2015-11-22",
       "phone": "(98) 3437-2929"
     },
     {
       "id": 5,
       "name": "Poole Valenzuela",
-      "gender": "male",
       "dateOfBirth": "2014-04-18",
       "phone": "(91) 5537-3579"
     },
     {
       "id": 6,
       "name": "Consuelo Boone",
-      "gender": "female",
       "dateOfBirth": "2024-12-11",
       "phone": "(81) 8595-3153"
     },
     {
       "id": 7,
       "name": "Horne Winters",
-      "gender": "male",
       "dateOfBirth": "2016-07-19",
       "phone": "(88) 1540-3804"
     },
     {
       "id": 8,
       "name": "Elsie Robinson",
-      "gender": "female",
       "dateOfBirth": "2023-07-07",
       "phone": "(95) 5539-3085"
     },
     {
       "id": 9,
       "name": "Lea Wagner",
-      "gender": "female",
       "dateOfBirth": "2017-08-28",
       "phone": "(86) 9501-3933"
     },
     {
       "id": 10,
       "name": "Carlene Massey",
-      "gender": "female",
       "dateOfBirth": "2017-03-30",
       "phone": "(92) 9461-3375"
     },
     {
       "id": 11,
       "name": "Leila Allison",
-      "gender": "female",
       "dateOfBirth": "2022-08-15",
       "phone": "(92) 6463-2856"
     },
     {
       "id": 12,
       "name": "Lane House",
-      "gender": "male",
       "dateOfBirth": "2020-09-16",
       "phone": "(96) 3509-2933"
     },
     {
       "id": 13,
       "name": "Howe Webb",
-      "gender": "male",
       "dateOfBirth": "2015-04-29",
       "phone": "(87) 3502-2213"
     },
     {
       "id": 14,
       "name": "Lynch Velez",
-      "gender": "male",
       "dateOfBirth": "2014-12-06",
       "phone": "(94) 8433-3696"
     },
     {
       "id": 15,
       "name": "Hilary Klein",
-      "gender": "female",
       "dateOfBirth": "2021-04-23",
       "phone": "(81) 7417-2165"
     },
     {
       "id": 16,
       "name": "Kirkland Munoz",
-      "gender": "male",
       "dateOfBirth": "2017-12-01",
       "phone": "(81) 6491-2942"
     },
     {
       "id": 17,
       "name": "Barrett Diaz",
-      "gender": "male",
       "dateOfBirth": "2023-05-26",
       "phone": "(97) 9477-2819"
     },
     {
       "id": 18,
       "name": "Kidd Copeland",
-      "gender": "male",
       "dateOfBirth": "2018-03-03",
       "phone": "(90) 8452-3387"
     },
     {
       "id": 19,
       "name": "Madeline Ortega",
-      "gender": "female",
       "dateOfBirth": "2020-10-17",
       "phone": "(88) 1487-3161"
     },
     {
       "id": 20,
       "name": "Ramirez Beach",
-      "gender": "male",
       "dateOfBirth": "2019-07-13",
       "phone": "(84) 7425-2759"
     },
     {
       "id": 21,
       "name": "Blanca Molina",
-      "gender": "female",
       "dateOfBirth": "2015-04-08",
       "phone": "(88) 5416-3575"
     },
     {
       "id": 22,
       "name": "Garrett Castillo",
-      "gender": "male",
       "dateOfBirth": "2020-02-21",
       "phone": "(84) 8557-2828"
     },
     {
       "id": 23,
       "name": "Tamika Lawrence",
-      "gender": "female",
       "dateOfBirth": "2017-01-28",
       "phone": "(90) 7431-3381"
     },
     {
       "id": 24,
       "name": "Beatrice Dotson",
-      "gender": "female",
       "dateOfBirth": "2021-05-13",
       "phone": "(97) 4469-3643"
     },
     {
       "id": 25,
       "name": "Larson Figueroa",
-      "gender": "male",
       "dateOfBirth": "2014-07-13",
       "phone": "(92) 5511-3489"
     },
     {
       "id": 26,
       "name": "Hazel Bates",
-      "gender": "female",
       "dateOfBirth": "2018-05-01",
       "phone": "(81) 0565-3548"
     },
     {
       "id": 27,
       "name": "Irene Hunter",
-      "gender": "female",
       "dateOfBirth": "2018-11-24",
       "phone": "(80) 2433-3692"
     },
     {
       "id": 28,
       "name": "Maricela Wilkerson",
-      "gender": "female",
       "dateOfBirth": "2025-02-10",
       "phone": "(89) 2474-2795"
     },
     {
       "id": 29,
       "name": "Ora Kent",
-      "gender": "female",
       "dateOfBirth": "2017-08-23",
       "phone": "(80) 1551-2804"
     },
     {
       "id": 30,
       "name": "Oneill Mccarty",
-      "gender": "male",
       "dateOfBirth": "2018-06-11",
       "phone": "(90) 9596-2086"
     },
     {
       "id": 31,
       "name": "Chandler Sims",
-      "gender": "male",
       "dateOfBirth": "2020-04-28",
       "phone": "(97) 7559-3177"
     },
     {
       "id": 32,
       "name": "Carmen Villarreal",
-      "gender": "female",
       "dateOfBirth": "2019-01-31",
       "phone": "(94) 4498-2411"
     },
     {
       "id": 33,
       "name": "Christina Wilkins",
-      "gender": "female",
       "dateOfBirth": "2019-09-24",
       "phone": "(85) 4575-3195"
     },
     {
       "id": 34,
       "name": "Barlow Donovan",
-      "gender": "male",
       "dateOfBirth": "2024-10-13",
       "phone": "(92) 8549-2820"
     },
     {
       "id": 35,
       "name": "Evangelina Guy",
-      "gender": "female",
       "dateOfBirth": "2018-04-08",
       "phone": "(80) 1513-2412"
     },
     {
       "id": 36,
       "name": "Herman Cain",
-      "gender": "male",
       "dateOfBirth": "2016-07-07",
       "phone": "(83) 2555-3155"
     },
     {
       "id": 37,
       "name": "Fran Chang",
-      "gender": "female",
       "dateOfBirth": "2023-11-27",
       "phone": "(88) 7526-3399"
     },
     {
       "id": 38,
       "name": "Carrillo Pickett",
-      "gender": "male",
       "dateOfBirth": "2015-01-12",
       "phone": "(82) 4445-3097"
     },
     {
       "id": 39,
       "name": "Shelia Brown",
-      "gender": "female",
       "dateOfBirth": "2017-10-11",
       "phone": "(95) 6479-2713"
     },
     {
       "id": 40,
       "name": "Mayra Hogan",
-      "gender": "female",
       "dateOfBirth": "2021-02-19",
       "phone": "(87) 2425-2962"
     },
     {
       "id": 41,
       "name": "Sellers Merritt",
-      "gender": "male",
       "dateOfBirth": "2015-02-25",
       "phone": "(97) 1551-3591"
     },
     {
       "id": 42,
       "name": "Amelia Merrill",
-      "gender": "female",
       "dateOfBirth": "2018-06-11",
       "phone": "(81) 1597-3172"
     },
     {
       "id": 43,
       "name": "Nellie Hurley",
-      "gender": "female",
       "dateOfBirth": "2023-03-30",
       "phone": "(93) 7431-2005"
     },
     {
       "id": 44,
       "name": "Kelsey Lang",
-      "gender": "female",
       "dateOfBirth": "2015-08-20",
       "phone": "(97) 1441-2213"
     },
     {
       "id": 45,
       "name": "Rojas Davis",
-      "gender": "male",
       "dateOfBirth": "2014-05-05",
       "phone": "(86) 7426-2160"
     },
     {
       "id": 46,
       "name": "Earlene Chavez",
-      "gender": "female",
       "dateOfBirth": "2023-02-12",
       "phone": "(89) 0562-3323"
     },
     {
       "id": 47,
       "name": "Marisol Mccarthy",
-      "gender": "female",
       "dateOfBirth": "2022-05-11",
       "phone": "(88) 6495-2078"
     },
     {
       "id": 48,
       "name": "Pennington Johnson",
-      "gender": "male",
       "dateOfBirth": "2021-01-25",
       "phone": "(97) 7542-2499"
     },
     {
       "id": 49,
       "name": "Kimberley Collier",
-      "gender": "female",
       "dateOfBirth": "2021-07-15",
       "phone": "(89) 2494-2676"
     },
     {
       "id": 50,
       "name": "Marion Gomez",
-      "gender": "female",
       "dateOfBirth": "2019-10-07",
       "phone": "(85) 5480-2726"
     },
     {
       "id": 51,
       "name": "Wallace Hancock",
-      "gender": "male",
       "dateOfBirth": "2016-10-31",
       "phone": "(91) 3507-2161"
     },
     {
       "id": 52,
       "name": "Webster Reese",
-      "gender": "male",
       "dateOfBirth": "2019-05-18",
       "phone": "(83) 0441-2117"
     },
     {
       "id": 53,
       "name": "Naomi Bond",
-      "gender": "female",
       "dateOfBirth": "2019-08-15",
       "phone": "(87) 7467-3974"
     },
     {
       "id": 54,
       "name": "Merritt Petty",
-      "gender": "male",
       "dateOfBirth": "2014-10-06",
       "phone": "(86) 6441-2385"
     },
     {
       "id": 55,
       "name": "Selma Rowland",
-      "gender": "female",
       "dateOfBirth": "2021-01-01",
       "phone": "(83) 4531-2512"
     },
     {
       "id": 56,
       "name": "Cortez Lambert",
-      "gender": "male",
       "dateOfBirth": "2024-05-11",
       "phone": "(83) 0493-2502"
     },
     {
       "id": 57,
       "name": "Holcomb Guerrero",
-      "gender": "male",
       "dateOfBirth": "2015-05-24",
       "phone": "(84) 0597-2679"
     },
     {
       "id": 58,
       "name": "Sanchez Little",
-      "gender": "male",
       "dateOfBirth": "2014-12-10",
       "phone": "(87) 7582-2324"
     },
     {
       "id": 59,
       "name": "Sandra Sexton",
-      "gender": "female",
       "dateOfBirth": "2021-01-21",
       "phone": "(92) 1513-3746"
     },
     {
       "id": 60,
       "name": "Agnes Frost",
-      "gender": "female",
       "dateOfBirth": "2016-08-07",
       "phone": "(96) 7596-2239"
     },
     {
       "id": 61,
       "name": "Mona Mcmahon",
-      "gender": "female",
       "dateOfBirth": "2024-09-23",
       "phone": "(90) 0438-2402"
     },
     {
       "id": 62,
       "name": "Jolene Adkins",
-      "gender": "female",
       "dateOfBirth": "2019-12-07",
       "phone": "(86) 7408-3390"
     },
     {
       "id": 63,
       "name": "Maxwell Burton",
-      "gender": "male",
       "dateOfBirth": "2021-01-31",
       "phone": "(95) 3470-2930"
     },
     {
       "id": 64,
       "name": "Burris Lindsey",
-      "gender": "male",
       "dateOfBirth": "2021-04-05",
       "phone": "(94) 2418-2352"
     },
     {
       "id": 65,
       "name": "Rachael Stone",
-      "gender": "female",
       "dateOfBirth": "2024-11-07",
       "phone": "(97) 4444-3826"
     },
     {
       "id": 66,
       "name": "Doreen Santiago",
-      "gender": "female",
       "dateOfBirth": "2014-01-27",
       "phone": "(80) 6533-2839"
     },
     {
       "id": 67,
       "name": "Gilda Dejesus",
-      "gender": "female",
       "dateOfBirth": "2020-01-04",
       "phone": "(96) 9413-3322"
     },
     {
       "id": 68,
       "name": "Benita Hubbard",
-      "gender": "female",
       "dateOfBirth": "2021-01-01",
       "phone": "(99) 5586-3688"
     },
     {
       "id": 69,
       "name": "Talley Small",
-      "gender": "male",
       "dateOfBirth": "2024-11-03",
       "phone": "(93) 6537-2106"
     },
     {
       "id": 70,
       "name": "Corrine Murray",
-      "gender": "female",
       "dateOfBirth": "2016-12-29",
       "phone": "(87) 6412-3353"
     },
     {
       "id": 71,
       "name": "Angeline Simon",
-      "gender": "female",
       "dateOfBirth": "2019-05-30",
       "phone": "(94) 9489-3914"
     },
     {
       "id": 72,
       "name": "Pat Snider",
-      "gender": "female",
       "dateOfBirth": "2019-06-10",
       "phone": "(96) 7493-3722"
     },
     {
       "id": 73,
       "name": "Huff Cameron",
-      "gender": "male",
       "dateOfBirth": "2015-02-24",
       "phone": "(92) 7500-2763"
     },
     {
       "id": 74,
       "name": "Petersen Schmidt",
-      "gender": "male",
       "dateOfBirth": "2022-04-04",
       "phone": "(87) 9439-3212"
     },
     {
       "id": 75,
       "name": "Ashlee Parsons",
-      "gender": "female",
       "dateOfBirth": "2015-07-04",
       "phone": "(81) 2592-3450"
     },
     {
       "id": 76,
       "name": "Lamb Dunlap",
-      "gender": "male",
       "dateOfBirth": "2018-12-06",
       "phone": "(97) 3551-3478"
     },
     {
       "id": 77,
       "name": "Blevins Skinner",
-      "gender": "male",
       "dateOfBirth": "2022-10-20",
       "phone": "(95) 3577-2491"
     },
     {
       "id": 78,
       "name": "Velasquez Ramirez",
-      "gender": "male",
       "dateOfBirth": "2018-01-25",
       "phone": "(93) 7415-2750"
     },
     {
       "id": 79,
       "name": "Latoya Holmes",
-      "gender": "female",
       "dateOfBirth": "2014-12-03",
       "phone": "(82) 8532-2640"
     },
     {
       "id": 80,
       "name": "Maldonado Jarvis",
-      "gender": "male",
       "dateOfBirth": "2016-11-18",
       "phone": "(89) 9476-3451"
     },
     {
       "id": 81,
       "name": "Hayes Faulkner",
-      "gender": "male",
       "dateOfBirth": "2023-10-29",
       "phone": "(92) 2497-2378"
     },
     {
       "id": 82,
       "name": "Simpson Sellers",
-      "gender": "male",
       "dateOfBirth": "2018-08-16",
       "phone": "(81) 7406-3372"
     },
     {
       "id": 83,
       "name": "Vance Rollins",
-      "gender": "male",
       "dateOfBirth": "2023-06-11",
       "phone": "(80) 4502-2720"
     },
     {
       "id": 84,
       "name": "Hoover Petersen",
-      "gender": "male",
       "dateOfBirth": "2024-10-13",
       "phone": "(90) 7486-2220"
     },
     {
       "id": 85,
       "name": "Cooke Pennington",
-      "gender": "male",
       "dateOfBirth": "2024-01-31",
       "phone": "(92) 7455-2110"
     },
     {
       "id": 86,
       "name": "Cohen Butler",
-      "gender": "male",
       "dateOfBirth": "2019-10-20",
       "phone": "(93) 8592-2034"
     },
     {
       "id": 87,
       "name": "Bauer Vang",
-      "gender": "male",
       "dateOfBirth": "2015-12-16",
       "phone": "(92) 9452-2579"
     },
     {
       "id": 88,
       "name": "Olga Montoya",
-      "gender": "female",
       "dateOfBirth": "2020-02-16",
       "phone": "(88) 9430-2424"
     },
     {
       "id": 89,
       "name": "Amber Robertson",
-      "gender": "female",
       "dateOfBirth": "2017-08-18",
       "phone": "(83) 7507-3412"
     },
     {
       "id": 90,
       "name": "Spence Beck",
-      "gender": "male",
       "dateOfBirth": "2015-07-05",
       "phone": "(91) 1556-3552"
     },
     {
       "id": 91,
       "name": "Bass White",
-      "gender": "male",
       "dateOfBirth": "2018-09-25",
       "phone": "(85) 8599-3122"
     },
     {
       "id": 92,
       "name": "Leonard Malone",
-      "gender": "male",
       "dateOfBirth": "2021-11-19",
       "phone": "(90) 1564-2583"
     },
     {
       "id": 93,
       "name": "Nina Rodriguez",
-      "gender": "female",
       "dateOfBirth": "2017-08-15",
       "phone": "(91) 1444-3061"
     },
     {
       "id": 94,
       "name": "Therese Ewing",
-      "gender": "female",
       "dateOfBirth": "2015-08-21",
       "phone": "(95) 2494-3522"
     },
     {
       "id": 95,
       "name": "Ferguson Mcfarland",
-      "gender": "male",
       "dateOfBirth": "2015-07-26",
       "phone": "(94) 9407-2865"
     },
     {
       "id": 96,
       "name": "Mercado Bishop",
-      "gender": "male",
       "dateOfBirth": "2021-04-27",
       "phone": "(82) 7514-3492"
     },
     {
       "id": 97,
       "name": "Morgan Ballard",
-      "gender": "male",
       "dateOfBirth": "2019-02-02",
       "phone": "(90) 6453-2838"
     },
     {
       "id": 98,
       "name": "Ruth Macdonald",
-      "gender": "female",
       "dateOfBirth": "2019-10-19",
       "phone": "(96) 2449-3806"
     },
     {
       "id": 99,
       "name": "Ferrell Emerson",
-      "gender": "male",
       "dateOfBirth": "2024-04-24",
       "phone": "(80) 7460-3456"
     },
     {
       "id": 100,
       "name": "Betsy Hyde",
-      "gender": "female",
       "dateOfBirth": "2021-08-28",
       "phone": "(94) 8600-2663"
     }
