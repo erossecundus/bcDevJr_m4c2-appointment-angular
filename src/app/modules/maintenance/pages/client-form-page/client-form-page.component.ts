@@ -3,6 +3,7 @@ import { ClientService } from '../../../../core/services/client.service';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { Location } from '@angular/common';
 import { ActivatedRoute } from '@angular/router';
+import { ToastService } from '../../../../core/services/toast.service';
 
 @Component({
   selector: 'app-client-form-page',
@@ -14,7 +15,12 @@ export class ClientFormPageComponent implements OnInit{
   formClient: FormGroup;
   isEditing: Boolean = false;
 
-  constructor(private formBuilder: FormBuilder, private clientService: ClientService, private location: Location, private router: ActivatedRoute) {
+  constructor(private formBuilder: FormBuilder,
+              private clientService: ClientService,
+              private location: Location,
+              private router: ActivatedRoute,
+              private toastService: ToastService
+            ) {
     this.formClient = this.formBuilder.group({
       id: [''],
       name: ['', [Validators.required]],
@@ -22,6 +28,7 @@ export class ClientFormPageComponent implements OnInit{
       dateOfBirth: ['', [Validators.required]],
     });
   }
+
   ngOnInit(): void {
     this.router.paramMap.subscribe(params => {
       let clientId = Number(params.get("id") ?? "0");
@@ -46,17 +53,19 @@ export class ClientFormPageComponent implements OnInit{
       if(this.isEditing) {
         this.clientService.updateClient(this.formClient.value).subscribe({
           next: () => {
+            this.toastService.show("Cliente atualizado com sucesso!", {classname: "bg-success text-light"});
             this.location.back();
           },
-          error: () => alert("Erro ao salvar o cliente")
+          error: () => this.toastService.show("Erro ao salvar o cliente", {classname: "bg-danger text-light"})
         })
       }
       else {
         this.clientService.saveClient(this.formClient.value).subscribe({
           next: () => {
+            this.toastService.show("Cliente salvo com sucesso!", {classname: "bg-success text-light"});
             this.location.back();
           },
-          error: () => alert("Erro ao salvar o cliente")
+          error: () => this.toastService.show("Erro ao criar o cliente", {classname: "bg-danger text-light"})
         })
       }
       
