@@ -3,6 +3,7 @@ import { ClientService } from '../../../../core/services/client.service';
 import { Client } from '../../../../core/models/client';
 import { Page } from '../../../../core/models/page';
 import { ToastService } from '../../../../core/services/toast.service';
+import { ModalComponent } from '../../../../shared/components/modal/modal.component';
 
 @Component({
   selector: 'app-client-table-page',
@@ -18,6 +19,7 @@ export class ClientTablePageComponent implements OnInit {
   page = 1;
 
   filter: string = '';
+  selectedClient !: Client;
 
  
 
@@ -42,16 +44,23 @@ export class ClientTablePageComponent implements OnInit {
     this.loadClients();
   }
   
-  deleteClient(client: Client) {
-    this.clientService.deleteClient(client).subscribe({
-      next: () => {
-        this.toastService.show("Cliente removido!", {classname: "bg-success text-light"})
-        this.loadClients();
-      },
-      error: () => {
-        this.toastService.show("Erro ao remover o cliente", {classname: "bg-danger text-light"})
+  deleteClient(client: Client, modalConfirm: ModalComponent) {
+
+    this.selectedClient = client;
+    modalConfirm.open().then( (confirm: any) => {
+      if(confirm) {
+        this.clientService.deleteClient(client).subscribe({
+          next: () => {
+            this.toastService.show("Cliente removido!", {classname: "bg-success text-light"})
+            this.loadClients();
+          },
+          error: () => {
+            this.toastService.show("Erro ao remover o cliente", {classname: "bg-danger text-light"})
+          }
+        });
       }
-    });
+    })
+    
   }
 
 }
