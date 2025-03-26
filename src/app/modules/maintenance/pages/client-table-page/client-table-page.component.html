@@ -36,7 +36,7 @@
             <td>{{client.phone}}</td>
             <td>{{client.dateOfBirth | date: 'dd/MM/y'}}</td>
             <td>
-              <div class="btn btn-sm" (click)="deleteClient(client)">
+              <div class="btn btn-sm" (click)="deleteClient(client, modalConfirm)">
                 <img src="assets/svg/trash3.svg" width="20" height="20" alt="delete">
               </div>
             </td>
@@ -50,6 +50,10 @@
 
     </div>
   </div>
-
-
 </div>
+
+<app-modal #modalConfirm [title]="'Deseja Remover o Cliente?'">
+  <ng-container *ngIf="selectedClient">
+    Nome: <span class="fw-bold me-1">{{selectedClient.name}}</span>
+  </ng-container>
+</app-modal>
